@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Yanone+Kaffeesatz:wght@300;400&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="menu" class="menu">
+      <i id="1" class="selected" data-feather="sun"></i>
+      <i id="2" data-feather="cloud"></i>
+      <i id="3" data-feather="moon"></i>
+    </div>
+
+    <div class="board-container">
+      <div id="flex-board" class="flex-board  ">
+        <img id="illustration" class="illustration" src="image/illustration.png" alt="">
+      </div>
+
+      <div class="board">
+        <div id="board-left" class="board-left">
+          <div class="card" id="bl-3">
+            <div class="header inline-content">
+              <h2>18º</h2>
+              <i id="3" data-feather="moon"></i>
+            </div>
+
+            <div class="subheader inline-content">
+              <i id="3" data-feather="cloud"></i>
+              <p>Night conditions</p>
+            </div>
+            <hr>
+            <br>
+            <h1>Miami Beach</h1>
+            <img class="info-img"
+              src="https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Miami Beach">
+          </div>
+
+          <div class="card" id="bl-2">
+            <div class="header inline-content">
+              <h2>22º</h2>
+              <i id="3" data-feather="moon"></i>
+            </div>
+
+            <div class="subheader inline-content">
+              <i id="3" data-feather="cloud"></i>
+              <p>Sunny conditions</p>
+            </div>
+            <hr>
+            <br>
+            <h1>Logoon Beach</h1>
+            <img class="info-img"
+              src="https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Miami Beach">
+          </div>
+
+          <div class="card" id="bl-1">
+            <div class="header inline-content">
+              <h2>28º</h2>
+              <i id="3" data-feather="sun"></i>
+            </div>
+
+            <div class="subheader inline-content">
+              <i id="3" data-feather="cloud"></i>
+              <p>California conditions</p>
+            </div>
+            <hr>
+            <br>
+            <h1>Logoon Beach</h1>
+            <img class="info-img"
+              src="https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Miami Beach">
+          </div>
+        </div>
+
+        <div id="board-right" class="board-right">
+          <div class="card" id="br-1">
+            <p>10:30 AM</p>
+            <h2>PADDLE <br> SURF </h2>
+            <p>Explore around the seashore</p>
+            <hr>
+            <br>
+            <h1>NOON:</h1>
+            <p>Do some stuff tomorrow</p>
+          </div>
+
+          <div class="card" id="br-2">
+            <p>12:30 AM</p>
+            <h2>SURF <br> CLASSES </h2>
+            <p>Explore around the seashore</p>
+            <hr>
+            <br>
+            <h1>NOON:</h1>
+            <p>Do some stuff tomorrow</p>
+          </div>
+
+          <div class="card" id="br-3">
+            <p>19:30 AM</p>
+            <h2>BEACH <br> LUAL </h2>
+            <p>Explore around the seashore</p>
+            <hr>
+            <br>
+            <h1>NOON:</h1>
+            <p>Do some stuff tomorrow</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
